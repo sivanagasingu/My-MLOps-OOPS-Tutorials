@@ -17,6 +17,7 @@ class employee:
 emp_1 = employee()
 
 # printing attributes
+print(id(emp_1))
 print(emp_1.salary)
 print(emp_1.designation)
 

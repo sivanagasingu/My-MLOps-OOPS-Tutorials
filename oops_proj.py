@@ -1,5 +1,6 @@
 class chatbook:
     def __init__(self):
+        self.__name = "Default User"
         self.username = ''
         self.password = ''
         self.logged_in = False
@@ -64,7 +65,6 @@ class chatbook:
             print("Please be sign-in before you sent a message to your {friend}")
             print("\n")
             self.menu()
-
 
 
 
